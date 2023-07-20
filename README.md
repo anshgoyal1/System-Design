@@ -14,8 +14,19 @@ There are different types of scalability, including:
 
 Achieving scalability can involve various strategies, such as designing software for distributed architectures, using load balancers, optimizing database performance, and using caching techniques.
 
+## Horizontal Vs vertical scaling
+Horizontal and vertical scaling are two different approaches to scaling a system or application.
+
+Vertical scaling, also known as scaling up, involves increasing the resources of a single machine or server, such as adding more processing power, memory, or storage. For example, you might upgrade a server by adding more RAM or replacing a hard disk drive with a solid-state drive. Vertical scaling is useful for improving the performance of a single machine, but it has limits since there is only a finite amount of resources that can be added to a single machine.
+
+Horizontal scaling, also known as scaling out, involves adding more machines or servers to a distributed network to handle an increased workload. With horizontal scaling, you can add more machines to handle more traffic or users. This approach is useful for improving the overall capacity and availability of a system, but it requires more complex architecture and communication protocols to manage the distributed system.
+
+Horizontal scaling is often preferred for applications that need to handle a large number of requests or users, such as web applications or e-commerce platforms. Vertical scaling is more suited for applications that require high performance on a single machine, such as scientific simulations or data processing tasks.
+
+Overall, both horizontal and vertical scaling have their own advantages and disadvantages, and the choice of which approach to use depends on the specific requirements and constraints of the system or application being developed.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTcwMDcxNCwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbNzA3MzQwMjcyLC0yMzE3MDA3MTQsLTMzMj
+Q1NTM2M119
 -->
