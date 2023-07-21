@@ -231,6 +231,8 @@ ACID is an acronym that stands for Atomicity, Consistency, Isolation, and Durabi
 
 ACID compliance provides strong guarantees for data integrity and is well-suited for applications where data consistency and correctness are paramount. However, ACID transactions can be resource-intensive and may lead to reduced scalability in distributed systems.
 
+> Ex. Oracle,
+
 **The CAP Theorem:**
 The CAP theorem, also known as Brewer's theorem, is a concept that describes the limitations of distributed systems in terms of three key properties: Consistency, Availability, and Partition Tolerance. According to the CAP theorem, it is impossible for a distributed system to simultaneously provide all three of these properties. A distributed system can, at most, achieve two out of the three.
 
@@ -253,7 +255,7 @@ In summary, ACID compliance ensures strong data consistency and integrity in tra
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTY0NTc0LC0xNzM2MzAxNDU1LDE1Mj
-c2NjAyNTcsMTE0OTUxNzk5OCwxNTM5NzE1MjgwLDcwNzM0MDI3
-MiwtMjMxNzAwNzE0LC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTIxMDc2ODg4NjcsLTE3MzYzMDE0NTUsMT
+UyNzY2MDI1NywxMTQ5NTE3OTk4LDE1Mzk3MTUyODAsNzA3MzQw
+MjcyLC0yMzE3MDA3MTQsLTMzMjQ1NTM2M119
 -->
