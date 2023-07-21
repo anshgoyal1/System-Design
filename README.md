@@ -116,9 +116,10 @@ Geographic failover involves setting up redundant systems in different geographi
 
 The choice of failover strategy depends on factors such as the application's criticality, cost considerations, the level of automation required, and the desired recovery time objectives (RTOs) and recovery point objectives (RPOs). Properly implemented failover strategies ensure business continuity and user satisfaction in the face of unforeseen failures or disruptions.
 
+## Sharding Databases / NoSQL
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzY2MDI1NywxMTQ5NTE3OTk4LDE1Mz
-k3MTUyODAsNzA3MzQwMjcyLC0yMzE3MDA3MTQsLTMzMjQ1NTM2
-M119
+eyJoaXN0b3J5IjpbLTExMTE2NjczNTEsMTUyNzY2MDI1NywxMT
+Q5NTE3OTk4LDE1Mzk3MTUyODAsNzA3MzQwMjcyLC0yMzE3MDA3
+MTQsLTMzMjQ1NTM2M119
 -->
