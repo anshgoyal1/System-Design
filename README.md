@@ -87,8 +87,10 @@ Load balancing can improve system performance and availability in several ways:
 
 Overall, load balancing is an important technique for ensuring the optimal performance, availability, and reliability of distributed systems.
 
+## Failover Strategies
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTUxNzk5OCwxNTM5NzE1MjgwLDcwNz
-M0MDI3MiwtMjMxNzAwNzE0LC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTc0OTExODk3OSwxMTQ5NTE3OTk4LDE1Mz
+k3MTUyODAsNzA3MzQwMjcyLC0yMzE3MDA3MTQsLTMzMjQ1NTM2
+M119
 -->
