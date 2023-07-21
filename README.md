@@ -25,8 +25,26 @@ Horizontal scaling is often preferred for applications that need to handle a lar
 
 Overall, both horizontal and vertical scaling have their own advantages and disadvantages, and the choice of which approach to use depends on the specific requirements and constraints of the system or application being developed.
 
+## Load Balancing
+Load balancing is the process of distributing workloads across multiple servers or machines to improve the performance, availability, and reliability of a system or application. Load balancing is a key component of many distributed systems, such as web applications, cloud computing, and content delivery networks.
+
+Load balancing works by using a load balancer, which acts as a traffic manager between clients and servers. The load balancer receives requests from clients and distributes them to the appropriate server based on various criteria, such as server availability, server load, and geographic location.
+
+There are different types of load balancing algorithms, including:
+
+1. Round-robin: Requests are distributed in a circular manner to each server in turn.
+2. Least connections: Requests are sent to the server with the least number of active connections.
+3. IP hash: Requests are distributed based on the client's IP address to ensure that multiple requests from the same client are sent to the same server.
+
+Load balancing can improve system performance and availability in several ways:
+
+1. Scalability: Load balancing allows a system to handle more traffic by distributing the workload across multiple servers.
+2. Redundancy: Load balancing provides fault tolerance by redirecting traffic to healthy servers in case of server failure.
+3. Geographic distribution: Load balancing can route traffic to servers located in different geographic locations to improve response time and reduce latency.
+
+Overall, load balancing is an important technique for ensuring the optimal performance, availability, and reliability of distributed systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3MzQwMjcyLC0yMzE3MDA3MTQsLTMzMj
-Q1NTM2M119
+eyJoaXN0b3J5IjpbMTUzOTcxNTI4MCw3MDczNDAyNzIsLTIzMT
+cwMDcxNCwtMzMyNDU1MzYzXX0=
 -->
