@@ -358,11 +358,11 @@ Eviction strategies are used in caching to determine which data to remove from t
 These eviction strategies can be used in combination or modified based on the specific needs of the caching system. The choice of an eviction strategy depends on the characteristics of the data being cached, the frequency of cache accesses, and the memory limits of the cache.
 
 ![enter](https://github.com/anshgoyal1/System-Design/blob/master/Screenshot%20from%202023-07-27%2021-03-17.png)
+
 ![enter image description here](https://github.com/anshgoyal1/System-Design/blob/master/Screenshot%20from%202023-07-27%2021-12-27.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTAxMjQxNDIsLTE5NTY1NDI0NjUsOD
-I2MDg0NDk5LC0xODY3MTc1OTA1LC0yMTA3Njg4ODY3LC0xNzM2
-MzAxNDU1LDE1Mjc2NjAyNTcsMTE0OTUxNzk5OCwxNTM5NzE1Mj
-gwLDcwNzM0MDI3MiwtMjMxNzAwNzE0LC0zMzI0NTUzNjNdfQ==
-
+eyJoaXN0b3J5IjpbLTI1NDUxMTEwNCwtMTk1NjU0MjQ2NSw4Mj
+YwODQ0OTksLTE4NjcxNzU5MDUsLTIxMDc2ODg4NjcsLTE3MzYz
+MDE0NTUsMTUyNzY2MDI1NywxMTQ5NTE3OTk4LDE1Mzk3MTUyOD
+AsNzA3MzQwMjcyLC0yMzE3MDA3MTQsLTMzMjQ1NTM2M119
 -->
