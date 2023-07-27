@@ -362,11 +362,28 @@ These eviction strategies can be used in combination or modified based on the sp
 ![enter image description here](https://github.com/anshgoyal1/System-Design/blob/master/Screenshot%20from%202023-07-27%2021-12-27.png)
 
 ## Content Distribution Networks (CDN's)
+A Content Distribution Network (CDN) is a distributed network of servers that work together to deliver content, such as web pages, images, videos, and other static or dynamic content, to users. The goal of a CDN is to improve the performance, availability, and reliability of content delivery by reducing latency, network congestion, and server load.
+
+CDNs work by storing cached copies of content on multiple geographically distributed servers, called edge servers, located closer to the end-users. When a user requests content, the CDN selects the edge server that is closest to the user, and delivers the content from that server. This reduces the distance between the user and the server, and reduces the time it takes for the content to travel over the network. CDNs also use advanced caching and compression techniques to further reduce latency and bandwidth usage.
+
+CDNs offer several benefits for content delivery, including:
+
+1. Faster content delivery: By delivering content from the edge servers closest to the user, CDNs can significantly reduce the time it takes for content to load, improving the user experience.
+
+2. Scalability: CDNs can handle large amounts of traffic and distribute the load across multiple servers, reducing the load on origin servers and improving scalability.
+
+3. Improved reliability: CDNs can provide redundancy and failover capabilities, ensuring that content is available even if one or more servers fail.
+
+4. Reduced bandwidth costs: By caching and compressing content, CDNs can reduce the amount of data that needs to be transferred over the network, reducing bandwidth costs for content providers.
+
+5. Global reach: CDNs have a global network of edge servers, allowing content to be delivered to users around the world, regardless of their location.
+
+Some popular CDN providers include Akamai, Cloudflare, Amazon CloudFront, and Google Cloud CDN. CDNs are commonly used by large websites, e-commerce sites, media companies, and other organizations that need to deliver content quickly and reliably to a large number of users.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzk3ODA3MTIsLTE5NTY1NDI0NjUsOD
-I2MDg0NDk5LC0xODY3MTc1OTA1LC0yMTA3Njg4ODY3LC0xNzM2
-MzAxNDU1LDE1Mjc2NjAyNTcsMTE0OTUxNzk5OCwxNTM5NzE1Mj
-gwLDcwNzM0MDI3MiwtMjMxNzAwNzE0LC0zMzI0NTUzNjNdfQ==
-
+eyJoaXN0b3J5IjpbNzAwOTYxNzc3LC0xNjM5NzgwNzEyLC0xOT
+U2NTQyNDY1LDgyNjA4NDQ5OSwtMTg2NzE3NTkwNSwtMjEwNzY4
+ODg2NywtMTczNjMwMTQ1NSwxNTI3NjYwMjU3LDExNDk1MTc5OT
+gsMTUzOTcxNTI4MCw3MDczNDAyNzIsLTIzMTcwMDcxNCwtMzMy
+NDU1MzYzXX0=
 -->
