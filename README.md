@@ -379,11 +379,34 @@ CDNs offer several benefits for content delivery, including:
 5. Global reach: CDNs have a global network of edge servers, allowing content to be delivered to users around the world, regardless of their location.
 
 Some popular CDN providers include Akamai, Cloudflare, Amazon CloudFront, and Google Cloud CDN. CDNs are commonly used by large websites, e-commerce sites, media companies, and other organizations that need to deliver content quickly and reliably to a large number of users.
+## Resiliency: Introduction
+Resiliency refers to the ability of a system to recover from failures, adapt to changing conditions, and continue functioning in the face of unexpected events. Resilient systems are designed to be fault-tolerant, scalable, and self-healing, and can withstand disruptions and failures without compromising their performance or reliability.
+
+Resiliency is critical in today's complex and interconnected systems, where failures can have far-reaching impacts and lead to significant economic and social consequences. Resilient systems are designed to anticipate and mitigate the effects of failures, and to quickly recover from disruptions, minimizing downtime and data loss.
+
+Resilient systems are characterized by several key features, including:
+
+1. Redundancy: Resilient systems have redundant components and failover mechanisms that can take over in case of failures or disruptions.
+
+2. Scalability: Resilient systems are designed to scale up or down to accommodate changing workloads and demand.
+
+3. Self-healing: Resilient systems use automation and monitoring tools to detect and recover from failures automatically, without human intervention.
+
+4. Modularity: Resilient systems are composed of modular components that can be independently tested, updated, and replaced, reducing the risk of system-wide failures.
+
+5. Diversity: Resilient systems use diverse technologies, architectures, and approaches to reduce the risk of single points of failure and improve fault tolerance.
+
+6. Testing: Resilient systems are rigorously tested to simulate failures and disruptions, and to ensure that they can continue functioning under adverse conditions.
+
+Resilience is not just about technology, but also about people, processes, and culture. Resilient organizations have strong leadership, clear communication channels, and well-defined procedures for responding to disruptions and emergencies. They prioritize resilience in their decision-making, invest in training and development, and foster a culture of continuous improvement and innovation.
+
+In summary, resiliency is critical for modern systems to ensure that they can withstand disruptions and failures, recover quickly, and continue functioning in the face of adversity. Resilient systems are designed to be fault-tolerant, scalable, and self-healing, and require a holistic approach that encompasses technology, people, processes, and culture.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwOTYxNzc3LC0xNjM5NzgwNzEyLC0xOT
-U2NTQyNDY1LDgyNjA4NDQ5OSwtMTg2NzE3NTkwNSwtMjEwNzY4
-ODg2NywtMTczNjMwMTQ1NSwxNTI3NjYwMjU3LDExNDk1MTc5OT
-gsMTUzOTcxNTI4MCw3MDczNDAyNzIsLTIzMTcwMDcxNCwtMzMy
-NDU1MzYzXX0=
+eyJoaXN0b3J5IjpbMTMzMTM1Nzg5NiwtMTYzOTc4MDcxMiwtMT
+k1NjU0MjQ2NSw4MjYwODQ0OTksLTE4NjcxNzU5MDUsLTIxMDc2
+ODg4NjcsLTE3MzYzMDE0NTUsMTUyNzY2MDI1NywxMTQ5NTE3OT
+k4LDE1Mzk3MTUyODAsNzA3MzQwMjcyLC0yMzE3MDA3MTQsLTMz
+MjQ1NTM2M119
 -->
