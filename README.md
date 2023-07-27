@@ -360,9 +360,13 @@ These eviction strategies can be used in combination or modified based on the sp
 ![enter](https://github.com/anshgoyal1/System-Design/blob/master/Screenshot%20from%202023-07-27%2021-03-17.png)
 
 ![enter image description here](https://github.com/anshgoyal1/System-Design/blob/master/Screenshot%20from%202023-07-27%2021-12-27.png)
+
+## Content Distribution Networks (CDN's)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDUxMTEwNCwtMTk1NjU0MjQ2NSw4Mj
-YwODQ0OTksLTE4NjcxNzU5MDUsLTIxMDc2ODg4NjcsLTE3MzYz
-MDE0NTUsMTUyNzY2MDI1NywxMTQ5NTE3OTk4LDE1Mzk3MTUyOD
-AsNzA3MzQwMjcyLC0yMzE3MDA3MTQsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTE2Mzk3ODA3MTIsLTE5NTY1NDI0NjUsOD
+I2MDg0NDk5LC0xODY3MTc1OTA1LC0yMTA3Njg4ODY3LC0xNzM2
+MzAxNDU1LDE1Mjc2NjAyNTcsMTE0OTUxNzk5OCwxNTM5NzE1Mj
+gwLDcwNzM0MDI3MiwtMjMxNzAwNzE0LC0zMzI0NTUzNjNdfQ==
+
 -->
