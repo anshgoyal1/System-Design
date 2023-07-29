@@ -421,11 +421,18 @@ Designing for resiliency involves taking a proactive approach to building system
 
 Designing for resiliency requires a holistic approach that encompasses technology, people, processes, and culture. It involves anticipating and mitigating failure scenarios, implementing redundant and failover mechanisms, using automation and self-healing techniques, and testing and simulating failures regularly. By designing for resiliency, organizations can ensure that their systems can withstand disruptions and continue functioning in the face of adversity.
 
-## Heading
+## Scaling your Data: Introduction
+Scaling data refers to the process of transforming the numerical values of a dataset to fit within a specific range. This is done to normalize the data and make it easier to analyze or compare with other datasets. 
+
+Scaling is particularly important in machine learning and data analysis, as it can affect the performance and accuracy of models and algorithms. If some features in a dataset have much larger values than others, they may dominate the calculations and lead to biased results. 
+
+There are various scaling techniques that can be used depending on the specific requirements of the dataset and the analysis being performed. Some common scaling techniques include min-max scaling, standardization, and normalization. Each of these techniques has its own advantages and disadvantages, and the choice of technique depends on the nature of the data and the goals of the analysis.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzOTYzNjk3LDEzMzEzNTc4OTYsLTE2Mz
-k3ODA3MTIsLTE5NTY1NDI0NjUsODI2MDg0NDk5LC0xODY3MTc1
-OTA1LC0yMTA3Njg4ODY3LC0xNzM2MzAxNDU1LDE1Mjc2NjAyNT
-csMTE0OTUxNzk5OCwxNTM5NzE1MjgwLDcwNzM0MDI3MiwtMjMx
-NzAwNzE0LC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTIxMDU2Nzk0MjMsMTMzMTM1Nzg5NiwtMT
+YzOTc4MDcxMiwtMTk1NjU0MjQ2NSw4MjYwODQ0OTksLTE4Njcx
+NzU5MDUsLTIxMDc2ODg4NjcsLTE3MzYzMDE0NTUsMTUyNzY2MD
+I1NywxMTQ5NTE3OTk4LDE1Mzk3MTUyODAsNzA3MzQwMjcyLC0y
+MzE3MDA3MTQsLTMzMjQ1NTM2M119
 -->
