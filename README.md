@@ -444,11 +444,28 @@ Some popular distributed storage solutions include:
 5. Apache Cassandra: Apache Cassandra is a distributed NoSQL database that is designed to provide high availability, fault tolerance, and linear scalability. It is used by many organizations for storing and processing large volumes of data.
 
 Each of these distributed storage solutions has its own strengths and weaknesses, and the choice of solution depends on the specific needs and requirements of the organization or application.
+## HDFS Architecture
+Hadoop Distributed File System (HDFS) is a distributed file system that provides a scalable and fault-tolerant way to store large data sets across multiple machines. The architecture of HDFS is designed to handle the challenges of storing and processing big data.
+
+The key components of HDFS architecture are:
+
+1. NameNode: The NameNode is the central component of the HDFS architecture and is responsible for managing the file system namespace and regulating client access to files. It stores metadata about files and directories, such as file permissions, ownership, and block locations.
+
+2. DataNode: The DataNode is responsible for storing and retrieving data blocks as directed by the NameNode. Each DataNode stores a subset of the data blocks in the file system and periodically reports its status to the NameNode.
+
+3. Block: A block is the basic unit of data storage in HDFS. Each file is divided into one or more blocks, and each block is stored on one or more DataNodes. The default block size in HDFS is 128 MB, but it can be configured to meet the specific needs of the application.
+
+4. Client: The client is any application that accesses files stored in HDFS. The client communicates with the NameNode to locate the DataNodes that store the data blocks and retrieves the data from those nodes.
+
+5. Secondary NameNode: The Secondary NameNode is a helper component that periodically checkpoints the metadata stored in the NameNode and creates a new image of the file system namespace. This image can be used to recover the file system in the event of a NameNode failure.
+
+The architecture of HDFS is designed to provide high availability, fault tolerance, and scalability. The NameNode is a single point of failure in the system, but it can be configured with a standby NameNode that can take over in the event of a failure. The use of data replication and distributed storage across multiple DataNodes provides fault tolerance and ensures that data can be accessed even if some nodes fail.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyNzA2NDg5LC0yMTA1Njc5NDIzLDEzMz
-EzNTc4OTYsLTE2Mzk3ODA3MTIsLTE5NTY1NDI0NjUsODI2MDg0
-NDk5LC0xODY3MTc1OTA1LC0yMTA3Njg4ODY3LC0xNzM2MzAxND
-U1LDE1Mjc2NjAyNTcsMTE0OTUxNzk5OCwxNTM5NzE1MjgwLDcw
-NzM0MDI3MiwtMjMxNzAwNzE0LC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTE3MjY2NDIyMzMsNDkyNzA2NDg5LC0yMT
+A1Njc5NDIzLDEzMzEzNTc4OTYsLTE2Mzk3ODA3MTIsLTE5NTY1
+NDI0NjUsODI2MDg0NDk5LC0xODY3MTc1OTA1LC0yMTA3Njg4OD
+Y3LC0xNzM2MzAxNDU1LDE1Mjc2NjAyNTcsMTE0OTUxNzk5OCwx
+NTM5NzE1MjgwLDcwNzM0MDI3MiwtMjMxNzAwNzE0LC0zMzI0NT
+UzNjNdfQ==
 -->
