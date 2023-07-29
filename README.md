@@ -402,11 +402,30 @@ Resilience is not just about technology, but also about people, processes, and c
 
 In summary, resiliency is critical for modern systems to ensure that they can withstand disruptions and failures, recover quickly, and continue functioning in the face of adversity. Resilient systems are designed to be fault-tolerant, scalable, and self-healing, and require a holistic approach that encompasses technology, people, processes, and culture.
 
+## Designing for Resiliency
+Designing for resiliency involves taking a proactive approach to building systems that can withstand disruptions, maintain availability, and recover quickly from failures. Here are some key considerations when designing for resiliency:
 
+1. Identify and prioritize critical services: Identify the most important services and functions of the system and prioritize them based on their impact on users or the business. This helps to focus efforts on the most critical areas of the system and ensure that they are designed to be resilient.
+
+2. Use redundancy and failover mechanisms: Use redundant components, such as servers, storage, and network links, to ensure that there are backup options available in case of failures. Implement failover mechanisms that can automatically switch to backup components when failures occur.
+
+3. Decentralize system components: Decentralize system components and distribute them across multiple locations to reduce the risk of single points of failure. This can involve using multiple data centers, cloud regions, or edge devices to ensure that there are redundant options available in case of disruptions.
+
+4. Implement monitoring and alerting: Implement monitoring tools that can detect failures, anomalies, and performance issues in real-time. Set up alerts and notifications that can trigger automated responses or human intervention when issues are detected.
+
+5. Use automation and self-healing techniques: Use automation tools to automatically respond to failures and disruptions, such as restarting services, replicating data, or switching to backup components. Implement self-healing techniques that can detect and correct errors without human intervention.
+
+6. Test and simulate failures: Test the system regularly to simulate failures and disruptions and ensure that it can recover quickly and continue functioning as expected. Use tools such as chaos engineering to intentionally introduce failures and measure the system's resiliency.
+
+7. Document and communicate procedures: Document procedures for responding to disruptions and emergencies and communicate them to all stakeholders. Ensure that there are clear lines of communication and that everyone knows their roles and responsibilities in case of disruptions.
+
+Designing for resiliency requires a holistic approach that encompasses technology, people, processes, and culture. It involves anticipating and mitigating failure scenarios, implementing redundant and failover mechanisms, using automation and self-healing techniques, and testing and simulating failures regularly. By designing for resiliency, organizations can ensure that their systems can withstand disruptions and continue functioning in the face of adversity.
+
+## Heading
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTM1Nzg5NiwtMTYzOTc4MDcxMiwtMT
-k1NjU0MjQ2NSw4MjYwODQ0OTksLTE4NjcxNzU5MDUsLTIxMDc2
-ODg4NjcsLTE3MzYzMDE0NTUsMTUyNzY2MDI1NywxMTQ5NTE3OT
-k4LDE1Mzk3MTUyODAsNzA3MzQwMjcyLC0yMzE3MDA3MTQsLTMz
-MjQ1NTM2M119
+eyJoaXN0b3J5IjpbOTAzOTYzNjk3LDEzMzEzNTc4OTYsLTE2Mz
+k3ODA3MTIsLTE5NTY1NDI0NjUsODI2MDg0NDk5LC0xODY3MTc1
+OTA1LC0yMTA3Njg4ODY3LC0xNzM2MzAxNDU1LDE1Mjc2NjAyNT
+csMTE0OTUxNzk5OCwxNTM5NzE1MjgwLDcwNzM0MDI3MiwtMjMx
+NzAwNzE0LC0zMzI0NTUzNjNdfQ==
 -->
